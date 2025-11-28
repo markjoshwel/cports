@@ -1,0 +1,2 @@
+IS_SERVICE=1
+RUST_LOG=debug

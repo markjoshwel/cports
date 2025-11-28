@@ -1,0 +1,6 @@
+type = process
+command = /usr/bin/supergfxd
+depends-on = dbus
+before = login.target
+env-file = /etc/default/supergfxd
+smooth-recovery = true
