@@ -1,0 +1,12 @@
+diff --git a/src/Main/Main.make b/src/Main/Main.make
+index 8a54a76..b81c4a7 100644
+--- a/src/Main/Main.make
++++ b/src/Main/Main.make
+@@ -346,7 +346,6 @@
+ 	rm -fr $(BASE_DIR)/Setup/Linux/packaging
+ 	mkdir -p $(BASE_DIR)/Setup/Linux/packaging
+ 	cp $(INTERNAL_INSTALLER_NAME) $(BASE_DIR)/Setup/Linux/packaging/.
+-	makeself $(BASE_DIR)/Setup/Linux/packaging $(BASE_DIR)/Setup/Linux/$(INSTALLER_NAME) "VeraCrypt $(TC_VERSION) Installer" ./$(INTERNAL_INSTALLER_NAME)
+
+ appimage: prepare
+ 	@set -e; \
